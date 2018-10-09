@@ -1,0 +1,12 @@
+﻿<Window x:Class="HookUpViews.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibili  ty/2006"
+        xmlns:views="clr-namespace:HookUpViews.Views"
+        xmlns:local="clr-namespace:HookUpViews"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <views:StudentView x:Name = "StudentViewControl"/>
+    </Grid>
+</Window>
